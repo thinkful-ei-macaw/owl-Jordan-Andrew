@@ -1,0 +1,31 @@
+.stage {
+    flex: 1;
+    display: flex;
+    float: right;
+    height: 100%;
+    width: 85%;
+    
+  }
+
+.stage .participant {
+    background: #404853;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    height: 100%;
+   
+  }
+
+  .stage img {
+    background: gray;
+    margin: 25px;
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+  }
+
