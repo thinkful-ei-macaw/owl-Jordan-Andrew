@@ -1,5 +1,3 @@
-export { participants };
-
 const participants = [
     {
         id: 1,
@@ -41,3 +39,5 @@ const participants = [
         onStage: true
     }
 ];
+const STORE = { participants }
+export default STORE;
